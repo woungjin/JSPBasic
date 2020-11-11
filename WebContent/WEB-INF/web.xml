@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>JSPBasic</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+	<!-- 서블넷등록 수동 입력 방법2 -->
+	<servlet>
+		<servlet-name>appServlet</servlet-name> <!-- 명칭 -->
+		<servlet-class>com.servlet.TestServlet2</servlet-class> <!-- 자바 파일의 실제 경로 -->
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>appServlet</servlet-name> <!-- 명칭 -->
+		<url-pattern>/apple</url-pattern> <!-- 자바 파일의 실제 경로 -->		
+	</servlet-mapping>
+	
+	<!-- 프로젝트 전역의 예외페이지 처리 -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/errorpage/error_view.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<error-code>500</error-code>
+		<location>/errorpage/error_view.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<exception-type>java.lang.NullPointerException</exception-type>
+		<location>/errorpage/error_view.jsp</location>
+	</error-page>
+	
+</web-app>
