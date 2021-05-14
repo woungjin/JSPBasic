@@ -16,4 +16,4 @@
 	번호 : <%=number %><br/>
 	ID : <%=id %><br/>
 </body>
-</html>
+</html> 
