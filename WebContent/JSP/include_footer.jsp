@@ -5,4 +5,4 @@
 	<h2>
 		COPYRIGHT@2020.10.27 날짜 전화번호 등등 
 	</h2>
-</footer>
+</footer> 
