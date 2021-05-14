@@ -18,4 +18,4 @@
 	<a href="req_get_result.jsp?name=홍길자&number=1234&id=kkk123">req_get_result.jsp</a>
 	
 </body>
-</html>
+</html> 
