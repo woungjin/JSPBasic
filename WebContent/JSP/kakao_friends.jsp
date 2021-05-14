@@ -38,3 +38,4 @@
 	<p><%=list.size() %>명 참가중
 </body>
 </html>
+ 
