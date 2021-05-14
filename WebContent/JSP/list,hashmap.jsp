@@ -42,6 +42,6 @@ hashMap
 	Set<Entry<Integer, String>> iter = map.entrySet();
 	for(Entry<Integer, String> i : iter) { %>
 		<%=i %> <br>
-<% } %>
+<% } %> 
 </body>
-</html>
+</html> 
