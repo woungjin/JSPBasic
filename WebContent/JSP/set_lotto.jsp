@@ -26,4 +26,4 @@ while(lotto.size() <6){
 <body>
 	랜덤 번호 : <%= lotto.toString()%>
 </body>
-</html>
+</html> 
