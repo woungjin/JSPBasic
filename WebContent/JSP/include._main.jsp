@@ -13,5 +13,6 @@
 		본문에 대한 영역
 	</section>
 <%@ include file="include_footer.jsp" %>
+	
 </body>
-</html>
+</html> 
