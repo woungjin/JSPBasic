@@ -33,4 +33,4 @@
 	랜덤메소드 : <%= randomNum() %> <br>
 
 </body>
-</html>
+</html> 
