@@ -50,5 +50,5 @@
 		<input type="checkbox" name="box"/>
  	<% } %>
 	
-</body>
+</body> 
 </html>
