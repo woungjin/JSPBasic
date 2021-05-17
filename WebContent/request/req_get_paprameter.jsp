@@ -28,8 +28,5 @@
 	관심분야 	: <%=Arrays.toString(inter) %><br>
 	통신사	: <%=phone1 %> <br>
 	글 		: <%=txt %> <br>
-	
-
-
 </body>
-</html>
+</html> 
