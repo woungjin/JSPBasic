@@ -29,6 +29,6 @@
 	접속 	IP : <%= addr %> <br> 
 	주소에 담긴 문자열 : <%= query %> <br>
 	요청 방식 : <%=method %> <br> <!-- GET or POST -->
- 	 
+ 	  
 </body>
 </html> 
